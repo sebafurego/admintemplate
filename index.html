@@ -22,6 +22,8 @@
     <link href="css/colors.min.css" rel="stylesheet" type="text/css">
     <link href="css/custom.css" rel="stylesheet" type="text/css">
     <!-- /global stylesheets -->
+    <link rel="stylesheet" href="css/app.min.css">
+    <link rel="stylesheet" href="css/vendor.min.css">
   
   </head>
 
@@ -150,7 +152,276 @@
 			<!-- Content area -->
 			<div class="content pt-0">
                 <br/>
-				[[*content]]
+				
+                <div class="clients-card">
+                    <div class="clients-card__sidebar">
+                        <div class="clients-card__group clients-card__group--padding">
+                            <div class="clients-card__img">
+                                <img src="img/dist/client-mask.png" alt="">
+                            </div>
+                            <button class="clients-menu">МЕНЮ</button>
+                            <h4 class="clients-card__name">Андреев Константин Алексеевич</h4>
+                            <div class="clients-card__inner">
+                                <label for="subscription-to-new-checkbox" class="square-checkbox">
+                                    <input type="checkbox" class="square-checkbox__input" id="subscription-to-new-checkbox">
+                                    <span class="square-checkbox__label">Подписать на новинки</span>
+                                    <span class="square-checkbox__icon"></span>
+                                </label>
+                            </div>
+                            <div class="clients-card__inner">
+                                <span class="clients-card__key">Договор оформлен:</span>
+                                <span class="clients-card__value clients-card__value--red">НЕТ</span>
+                            </div>
+                            <div class="clients-card__inner">
+                                <span class="clients-card__key">Зарегистрирован на сайте:</span>
+                                <span class="clients-card__value clients-card__value--green">ДА</span>
+                            </div>
+                            <div class="clients-card__inner">
+                                <span class="clients-card__key">Доверенное лицо:</span>
+                                <span class="clients-card__value clients-card__value--green">ДА</span>
+                            </div>
+                            <button class="clients-card__btn btn">Оформить единый договор</button>
+                        </div>
+                        <div class="clients-card__group clients-card__group--padding">
+                            <div class="clients-card__inner">
+                                <span class="clients-card__key">Баллов:</span>
+                                <span class="clients-card__value">153625</span>
+                            </div>
+                            <div class="clients-card__inner">
+                                <span class="clients-card__key">Зарегистрирован:</span>
+                                <span class="clients-card__value">24.05.2006</span>
+                            </div>
+                            <div class="clients-card__inner">
+                                <span class="clients-card__key">Тип:</span>
+                                <span class="clients-card__value">Обычный</span>
+                            </div>
+                            <div class="clients-card__inner">
+                                <span class="clients-card__key">Номер карты:</span>
+                                <span class="clients-card__value">Обычный</span>
+                            </div>
+                            <div class="clients-card__inner">
+                                <span class="clients-card__key">Скидка на покупку:</span>
+                                <span class="clients-card__value">5%</span>
+                            </div>
+                            <div class="clients-card__inner">
+                                <span class="clients-card__key">Скидка на продажу:</span>
+                                <span class="clients-card__value">10%</span>
+                            </div>
+                            <div class="clients-card__inner">
+                                <span class="clients-card__key">Штрихкод карты:</span>
+                            </div>
+                            <div class="input-group input-group--placeholder">
+                                <input type="text" class="input-group__input" id="input-register-password" placeholder="Введите код..." required>
+                                <span class="input-group__icon"></span>
+                            </div>
+                        </div>
+                        <div class="clients-card__group">
+                            <div class="clients-card__inner">
+                                <span class="clients-card__value">Контакты</span>
+                                <button class="clients-card__change modal-btn">
+                                    <span>Добавить</span>
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17.9025 8.00306H9.99702L9.99702 0.0976065H8.00298L8.00298 8.00306H0.0975257L0.0975258 9.9971L8.00298 9.9971V17.9026H9.99702V9.9971L17.9025 9.9971L17.9025 8.00306Z" fill="#2E3A59"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="clients-card__group clients-card__group--margin">
+                            <div class="clients-card__inner">
+                                <span class="clients-card__value">8 (981) 150-23-22</span>
+                                <div class="clients-card__inner">
+                                    <button class="clients-card__change">
+                                        <span>Изменить</span>
+                                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.315 14.4345C1.10461 14.4341 0.904051 14.3454 0.76225 14.19C0.617834 14.0358 0.546073 13.8274 0.565 13.617L0.74875 11.5965L9.23725 3.11098L11.89 5.76298L3.40375 14.2477L1.38325 14.4315C1.36 14.4337 1.33675 14.4345 1.315 14.4345ZM12.4195 5.23273L9.7675 2.58073L11.3583 0.989985C11.4989 0.849152 11.6898 0.77002 11.8889 0.77002C12.0879 0.77002 12.2788 0.849152 12.4195 0.989985L14.0103 2.58073C14.1511 2.72141 14.2302 2.9123 14.2302 3.11136C14.2302 3.31042 14.1511 3.50131 14.0103 3.64198L12.4203 5.23198L12.4195 5.23273Z" fill="#797979"/>
+                                        </svg>
+                                    </button>
+                                    <button class="clients-card__change">
+                                        <span>Удалить</span>
+                                        <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.75 15.5H3.25C2.42157 15.5 1.75 14.8284 1.75 14V4.25H0.25V2.75H3.25V2C3.25 1.17157 3.92157 0.5 4.75 0.5H9.25C10.0784 0.5 10.75 1.17157 10.75 2V2.75H13.75V4.25H12.25V14C12.25 14.8284 11.5784 15.5 10.75 15.5ZM3.25 4.25V14H10.75V4.25H3.25ZM4.75 2V2.75H9.25V2H4.75ZM9.25 12.5H7.75V5.75H9.25V12.5ZM6.25 12.5H4.75V5.75H6.25V12.5Z" fill="#797979"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="clients-card__inner">
+                                <span class="clients-card__value">lc3cr34m@mail.ru</span>
+                                <div class="clients-card__inner">
+                                    <button class="clients-card__change">
+                                        <span>Изменить</span>
+                                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.315 14.4345C1.10461 14.4341 0.904051 14.3454 0.76225 14.19C0.617834 14.0358 0.546073 13.8274 0.565 13.617L0.74875 11.5965L9.23725 3.11098L11.89 5.76298L3.40375 14.2477L1.38325 14.4315C1.36 14.4337 1.33675 14.4345 1.315 14.4345ZM12.4195 5.23273L9.7675 2.58073L11.3583 0.989985C11.4989 0.849152 11.6898 0.77002 11.8889 0.77002C12.0879 0.77002 12.2788 0.849152 12.4195 0.989985L14.0103 2.58073C14.1511 2.72141 14.2302 2.9123 14.2302 3.11136C14.2302 3.31042 14.1511 3.50131 14.0103 3.64198L12.4203 5.23198L12.4195 5.23273Z" fill="#797979"/>
+                                        </svg>
+                                    </button>
+                                    <button class="clients-card__change">
+                                        <span>Удалить</span>
+                                        <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.75 15.5H3.25C2.42157 15.5 1.75 14.8284 1.75 14V4.25H0.25V2.75H3.25V2C3.25 1.17157 3.92157 0.5 4.75 0.5H9.25C10.0784 0.5 10.75 1.17157 10.75 2V2.75H13.75V4.25H12.25V14C12.25 14.8284 11.5784 15.5 10.75 15.5ZM3.25 4.25V14H10.75V4.25H3.25ZM4.75 2V2.75H9.25V2H4.75ZM9.25 12.5H7.75V5.75H9.25V12.5ZM6.25 12.5H4.75V5.75H6.25V12.5Z" fill="#797979"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clients-card__content">
+                        <!-- Breadcrumb -->
+                        <nav class="breadcrumb" aria-label="Breadcrumb">
+                            <ol class="breadcrumb__list">
+                                <li class="breadcrumb__item">
+                                    <a class="breadcrumb__link" href="index.html">Клиенты</a>
+                                </li>
+                                <li class="breadcrumb__item">
+                                    <a class="breadcrumb__link" href="index.html">Андреев Константин Алексеевич</a>
+                                </li>
+                                <li class="breadcrumb__item">
+                                    <a class="breadcrumb__link" href="#">Карточка клиента</a>
+                                </li>
+                            </ol>
+                        </nav>
+                        <!-- End of breadcrumb -->
+                        <form action="" class="clients-card__body">
+                            <div class="clients-card__wrapper">
+                                <div class="clients-card__column">
+                                    <h3 class="clients-card__title">Данные о клиенте</h3>
+                                    <div class="input-group clients-card__input-group">
+                                        <input type="tel" class="input-group__input" id="input-phone" placeholder="Телефон" data-inputmask="'mask': '+7 (999) 999-99-99'" required>
+                                        <label for="input-phone" class="input-group__label">Телефон<span>*</span></label>
+                                    </div>
+                                    <div class="input-group clients-card__input-group">
+                                        <select class="select" required>
+                                            <option value="0" selected>Мужской</option>
+                                            <option value="1">Женский</option>
+                                        </select>
+                                        <label class="input-group__label input-group__label--active">Пол</label>
+                                    </div>
+                                    <div class="input-group clients-card__input-group">
+                                        <input type="text" class="input-group__input" id="input-surname" placeholder="Фамилия" required>
+                                        <label for="input-surname" class="input-group__label">Фамилия<span>*</span></label>
+                                    </div>
+                                    <div class="input-group clients-card__input-group">
+                                        <input type="text" class="input-group__input" id="input-name" placeholder="Имя" required>
+                                        <label for="input-name" class="input-group__label">Имя<span>*</span></label>
+                                    </div>
+                                    <div class="input-group clients-card__input-group">
+                                        <input type="text" class="input-group__input" id="input-patronymic" placeholder="Отчество" required>
+                                        <label for="input-patronymic" class="input-group__label">Отчество<span>*</span></label>
+                                    </div>
+                                    <div class="input-group">
+                                        <input type="text" class="input-group__input" id="input-dob" placeholder="Дата рождения" data-inputmask="'mask': '99.99.9999'" required>
+                                        <label for="input-dob" class="input-group__label">Дата рождения<span>*</span></label>
+                                    </div>
+                                    <div class="input-group clients-card__input-group">
+                                        <select class="select" required>
+                                            <option value="0" selected>Паспорт</option>
+                                        </select>
+                                        <label class="input-group__label input-group__label--active">Документ</label>
+                                    </div>
+                                    <div class="clients-card__inner">
+                                        <div class="input-group clients-card__input-group">
+                                            <input type="text" class="input-group__input" id="input-series" placeholder="Серия" required>
+                                            <label for="input-series" class="input-group__label">Серия<span>*</span></label>
+                                        </div>
+                                        <div class="input-group clients-card__input-group">
+                                            <input type="text" class="input-group__input" id="input-number" placeholder="Номер" required>
+                                            <label for="input-number" class="input-group__label">Номер<span>*</span></label>
+                                        </div>
+                                    </div>
+                                    <div class="input-group clients-card__input-group">
+                                        <input type="text" class="input-group__input" id="input-date-of-issue" placeholder="Дата выдачи" data-inputmask="'mask': '99.99.9999'" required>
+                                        <label for="input-date-of-issue" class="input-group__label">Дата выдачи<span>*</span></label>
+                                    </div>
+                                    <div class="input-group clients-card__input-group">
+                                        <input type="text" class="input-group__input" id="input-issued-by" placeholder="Кем выдан" required>
+                                        <label for="input-issued-by" class="input-group__label">Кем выдан<span>*</span></label>
+                                    </div>
+                                </div>
+                                <div class="clients-card__column">
+                                    <h3 class="clients-card__title">Адрес и прописка</h3>
+                                    <div class="input-group clients-card__input-group">
+                                        <input type="text" class="input-group__input" id="input-city" placeholder="Город" required>
+                                        <label for="input-city" class="input-group__label">Город<span>*</span></label>
+                                    </div>
+                                    <div class="input-group clients-card__input-group">
+                                        <input type="text" class="input-group__input" id="input-district" placeholder="Район" required>
+                                        <label for="input-district" class="input-group__label">Район<span>*</span></label>
+                                    </div>
+                                    <div class="input-group clients-card__input-group">
+                                        <input type="text" class="input-group__input" id="input-street" placeholder="Улица" required>
+                                        <label for="input-street" class="input-group__label">Улица<span>*</span></label>
+                                    </div>
+                                    <div class="clients-card__inner">
+                                        <div class="input-group clients-card__input-group">
+                                            <input type="text" class="input-group__input" id="input-home" placeholder="Дом" required>
+                                            <label for="input-home" class="input-group__label">Дом<span>*</span></label>
+                                        </div>
+                                        <div class="input-group clients-card__input-group">
+                                            <input type="text" class="input-group__input" id="input-body" placeholder="Корпус" required>
+                                            <label for="input-body" class="input-group__label">Корпус</label>
+                                        </div>
+                                        <div class="input-group clients-card__input-group">
+                                            <input type="text" class="input-group__input" id="input-flat" placeholder="Квартира" required>
+                                            <label for="input-flat" class="input-group__label">Квартира<span>*</span></label>
+                                        </div>
+                                    </div>
+                                    <h3 class="clients-card__title">Реквизиты для перевода</h3>
+                                    <div class="input-group clients-card__input-group">
+                                        <input type="text" class="input-group__input" id="input-inn" placeholder="ИНН" required>
+                                        <label for="input-inn" class="input-group__label">ИНН<span>*</span></label>
+                                    </div>
+                                    <div class="input-group clients-card__input-group">
+                                        <input type="text" class="input-group__input" id="input-bank-name" placeholder="Наименование банка" required>
+                                        <label for="input-bank-name" class="input-group__label">Наименование банка<span>*</span></label>
+                                    </div>
+                                    <div class="input-group clients-card__input-group">
+                                        <input type="text" class="input-group__input" id="input-bik" placeholder="БИК" required>
+                                        <label for="input-bik" class="input-group__label">БИК<span>*</span></label>
+                                    </div>
+                                    <div class="input-group clients-card__input-group">
+                                        <input type="text" class="input-group__input" id="input-checking-account" placeholder="Расчетный счет" required>
+                                        <label for="input-checking-account" class="input-group__label">Расчетный счет<span>*</span></label>
+                                    </div>
+                                </div>
+                                <div class="clients-card__column">
+                                    <h3 class="clients-card__title">Доп. информация</h3>
+                                    <div class="input-group clients-card__input-group">
+                                        <select class="select">
+                                            <option value="0" selected disabled>Узнали о магазине</option>
+                                            <option value="1">От друзей</option>
+                                        </select>
+                                        <label class="input-group__label input-group__label--active">Узнали о магазине</label>
+                                    </div>
+                                    <div class="input-group">
+                                        <input type="text" class="input-group__input" id="input-like-brand" placeholder="Любимые бренды" value="Armani, adidas" required>
+                                        <label for="input-like-brand" class="input-group__label">Любимые бренды</label>
+                                    </div>
+                                    <div class="input-group clients-card__input-group modal-material-btn">
+                                        <input type="text" class="input-group__input" id="input-clothing-size" placeholder="Размер одежды" required disabled>
+                                        <label for="input-clothing-size" class="input-group__label">Размер одежды</label>
+                                    </div>
+                                    <div class="input-group clients-card__input-group modal-material-btn">
+                                        <input type="text" class="input-group__input" id="input-shoe-size" placeholder="Размер обуви" required disabled>
+                                        <label for="input-shoe-size" class="input-group__label">Размер обуви</label>
+                                    </div>
+                                    <div class="input-group">
+                                        <select class="select" required>
+                                            <option value="0" selected>Метро</option>
+                                            <option value="1">Личный транспорт</option>
+                                        </select>
+                                        <label class="input-group__label input-group__label--active">Как добирается до магазина</label>
+                                    </div>
+                                    <div class="input-group">
+                                        <select class="select" required>
+                                            <option value="0" selected>Да</option>
+                                            <option value="1">Нет</option>
+                                        </select>
+                                        <label class="input-group__label input-group__label--active">Интерес к детской одежде</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="clients-card__save-btn btn">Сохранить изменения</button>
+                        </form>
+                    </div>
+                </div>
 			</div>
 			<!-- /content area -->
 			<!-- Footer -->
@@ -174,5 +445,301 @@
 		<!-- /main content -->
 	</div>
 	<!-- /page content -->
+
+    <!-- Modal -->
+    <div class="modal">
+        <div class="modal__wrapper">
+            <h3 class="modal__title">Способ связи</h3>
+            <div class="modal__content">
+                <div class="input-group modal__input-group">
+                    <input type="text" class="input-group__input" id="input-mailing-address" placeholder="Почтовый адрес" required>
+                    <label for="input-mailing-address" class="input-group__label">Почтовый адрес</label>
+                </div>
+                <div class="input-group modal__input-group">
+                    <input type="text" class="input-group__input" id="input-vk" placeholder="Vk" required>
+                    <label for="input-vk" class="input-group__label">Vk</label>
+                </div>
+                <div class="input-group modal__input-group">
+                    <input type="text" class="input-group__input" id="input-phone-modal" placeholder="Телефон" required>
+                    <label for="input-phone-modal" class="input-group__label">Телефон</label>
+                </div>
+                <div class="input-group modal__input-group">
+                    <input type="text" class="input-group__input" id="input-instagram" placeholder="Instagram" required>
+                    <label for="input-instagram" class="input-group__label">Instagram</label>
+                </div>
+                <div class="input-group modal__input-group">
+                    <input type="text" class="input-group__input" id="input-more-phone-modal" placeholder="Доп. телефон" required>
+                    <label for="input-more-phone-modal" class="input-group__label">Доп. телефон</label>
+                </div>
+                <div class="input-group modal__input-group">
+                    <input type="text" class="input-group__input" id="input-facebook" placeholder="Facebook" required>
+                    <label for="input-facebook" class="input-group__label">Facebook</label>
+                </div>
+                <div class="modal__inner">
+                    <span class="modal__key">Добавить способ связи</span>
+                    <button class="modal__add">
+                        <span>Добавить</span>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.9025 8.00306H9.99702L9.99702 0.0976065H8.00298L8.00298 8.00306H0.0975257L0.0975258 9.9971L8.00298 9.9971V17.9026H9.99702V9.9971L17.9025 9.9971L17.9025 8.00306Z" fill="#2E3A59"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <button class="modal__save-btn btn">Сохранить изменения</button>
+        </div>
+    </div>
+    <!-- End of modal -->
+    <!-- Modal material -->
+    <div class="modal-material">
+        <div class="modal-material__wrapper">
+            <div class="modal-material__top">
+                <div class="modal-material__inner">
+                    <h4 class="modal-material__subtitle">Выберит один или несколько размеров</h4>
+                    <button class="modal-material__close">
+                        <span>Закрыть</span>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.789 6.48892L11.511 5.21094L8.99998 7.73092L6.48898 5.21094L5.211 6.48892L7.73098 8.99992L5.211 11.5109L6.48898 12.7889L8.99998 10.2689L11.511 12.7889L12.789 11.5109L10.269 8.99992L12.789 6.48892Z" fill="black"/>
+                            <path d="M8.99998 0C4.02945 0 0 4.02945 0 8.99998C0 13.9705 4.02945 18 8.99998 18C13.9705 18 18 13.9705 18 8.99998C18 4.02945 13.9705 0 8.99998 0ZM8.99998 16.371C4.9291 16.371 1.62898 13.0709 1.62898 8.99998C1.62898 4.9291 4.9291 1.62898 8.99998 1.62898C13.0688 1.63392 16.366 4.93112 16.371 8.99998C16.371 13.0709 13.0709 16.371 8.99998 16.371Z" fill="black"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="modal-material__inner modal-material__inner--padding">
+                    <ul class="selected-sizes">
+                        <li class="selected-sizes__item">
+                            <span class="selected-sizes__value">7.5 UK</span>
+                            <button class="selected-sizes__delete">Удалить</button>
+                        </li>
+                        <li class="selected-sizes__item">
+                            <span class="selected-sizes__value">8 UK</span>
+                            <button class="selected-sizes__delete">Удалить</button>
+                        </li>
+                        <li class="selected-sizes__item">
+                            <span class="selected-sizes__value">46</span>
+                            <button class="selected-sizes__delete">Удалить</button>
+                        </li>
+                        <li class="selected-sizes__item">
+                            <button class="selected-sizes__clear-btn">Очистить все</button>
+                        </li>
+                    </ul>
+                </div>
+                <button class="modal-material__btn">Применить <span>3 размера</span></button>
+            </div>
+            <div class="modal-material__content">
+                <div class="modal-material__column modal-material__column--hidden">
+                    <h3 class="modal-material__title modal-material__title--shoe">Размер обуви</h3>
+                    <ul class="modal-material__list">
+                        <li class="modal-material__item">
+                            <label for="shoe-size-1" class="size-checkbox">
+                                <input type="checkbox" class="size-checkbox__input" id="shoe-size-1">
+                                <div class="size-checkbox__group">
+                                    <span class="size-checkbox__label">6.5 UK</span>
+                                    <span class="size-checkbox__icon"></span>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="modal-material__item">
+                            <label for="shoe-size-2" class="size-checkbox">
+                                <input type="checkbox" class="size-checkbox__input" id="shoe-size-2">
+                                <div class="size-checkbox__group">
+                                    <span class="size-checkbox__label">7 UK</span>
+                                    <span class="size-checkbox__icon"></span>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="modal-material__item">
+                            <label for="shoe-size-3" class="size-checkbox">
+                                <input type="checkbox" class="size-checkbox__input" id="shoe-size-3">
+                                <div class="size-checkbox__group">
+                                    <span class="size-checkbox__label">7.5 UK</span>
+                                    <span class="size-checkbox__icon"></span>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="modal-material__item">
+                            <label for="shoe-size-4" class="size-checkbox">
+                                <input type="checkbox" class="size-checkbox__input" id="shoe-size-4">
+                                <div class="size-checkbox__group">
+                                    <span class="size-checkbox__label">8 UK</span>
+                                    <span class="size-checkbox__icon"></span>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="modal-material__item">
+                            <label for="shoe-size-5" class="size-checkbox">
+                                <input type="checkbox" class="size-checkbox__input" id="shoe-size-5">
+                                <div class="size-checkbox__group">
+                                    <span class="size-checkbox__label">8.5 UK</span>
+                                    <span class="size-checkbox__icon"></span>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="modal-material__item">
+                            <label for="shoe-size-6" class="size-checkbox">
+                                <input type="checkbox" class="size-checkbox__input" id="shoe-size-6">
+                                <div class="size-checkbox__group">
+                                    <span class="size-checkbox__label">9 UK</span>
+                                    <span class="size-checkbox__icon"></span>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="modal-material__item">
+                            <label for="shoe-size-7" class="size-checkbox">
+                                <input type="checkbox" class="size-checkbox__input" id="shoe-size-7">
+                                <div class="size-checkbox__group">
+                                    <span class="size-checkbox__label">9.5 UK</span>
+                                    <span class="size-checkbox__icon"></span>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="modal-material__item">
+                            <label for="shoe-size-8" class="size-checkbox">
+                                <input type="checkbox" class="size-checkbox__input" id="shoe-size-8">
+                                <div class="size-checkbox__group">
+                                    <span class="size-checkbox__label">10 UK</span>
+                                    <span class="size-checkbox__icon"></span>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="modal-material__item">
+                            <label for="shoe-size-9" class="size-checkbox">
+                                <input type="checkbox" class="size-checkbox__input" id="shoe-size-9">
+                                <div class="size-checkbox__group">
+                                    <span class="size-checkbox__label">10.5 UK</span>
+                                    <span class="size-checkbox__icon"></span>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="modal-material__item">
+                            <label for="shoe-size-10" class="size-checkbox">
+                                <input type="checkbox" class="size-checkbox__input" id="shoe-size-10">
+                                <div class="size-checkbox__group">
+                                    <span class="size-checkbox__label">11 UK</span>
+                                    <span class="size-checkbox__icon"></span>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="modal-material__item">
+                            <label for="shoe-size-11" class="size-checkbox">
+                                <input type="checkbox" class="size-checkbox__input" id="shoe-size-11">
+                                <div class="size-checkbox__group">
+                                    <span class="size-checkbox__label">11.5 UK</span>
+                                    <span class="size-checkbox__icon"></span>
+                                </div>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-material__column modal-material__column--hidden">
+                    <h3 class="modal-material__title modal-material__title--clothing">Размер одежды</h3>
+                    <ul class="modal-material__list">
+                        <li class="modal-material__item">
+                            <label for="clothing-size-1" class="size-checkbox">
+                                <input type="checkbox" class="size-checkbox__input" id="clothing-size-1">
+                                <div class="size-checkbox__group">
+                                    <span class="size-checkbox__label">32</span>
+                                    <span class="size-checkbox__icon"></span>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="modal-material__item">
+                            <label for="clothing-size-2" class="size-checkbox">
+                                <input type="checkbox" class="size-checkbox__input" id="clothing-size-2">
+                                <div class="size-checkbox__group">
+                                    <span class="size-checkbox__label">33</span>
+                                    <span class="size-checkbox__icon"></span>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="modal-material__item">
+                            <label for="clothing-size-3" class="size-checkbox">
+                                <input type="checkbox" class="size-checkbox__input" id="clothing-size-3">
+                                <div class="size-checkbox__group">
+                                    <span class="size-checkbox__label">34</span>
+                                    <span class="size-checkbox__icon"></span>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="modal-material__item">
+                            <label for="clothing-size-4" class="size-checkbox">
+                                <input type="checkbox" class="size-checkbox__input" id="clothing-size-4">
+                                <div class="size-checkbox__group">
+                                    <span class="size-checkbox__label">35</span>
+                                    <span class="size-checkbox__icon"></span>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="modal-material__item">
+                            <label for="clothing-size-5" class="size-checkbox">
+                                <input type="checkbox" class="size-checkbox__input" id="clothing-size-5">
+                                <div class="size-checkbox__group">
+                                    <span class="size-checkbox__label">36</span>
+                                    <span class="size-checkbox__icon"></span>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="modal-material__item">
+                            <label for="clothing-size-6" class="size-checkbox">
+                                <input type="checkbox" class="size-checkbox__input" id="clothing-size-6">
+                                <div class="size-checkbox__group">
+                                    <span class="size-checkbox__label">37</span>
+                                    <span class="size-checkbox__icon"></span>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="modal-material__item">
+                            <label for="clothing-size-7" class="size-checkbox">
+                                <input type="checkbox" class="size-checkbox__input" id="clothing-size-7">
+                                <div class="size-checkbox__group">
+                                    <span class="size-checkbox__label">38</span>
+                                    <span class="size-checkbox__icon"></span>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="modal-material__item">
+                            <label for="clothing-size-8" class="size-checkbox">
+                                <input type="checkbox" class="size-checkbox__input" id="clothing-size-8">
+                                <div class="size-checkbox__group">
+                                    <span class="size-checkbox__label">39</span>
+                                    <span class="size-checkbox__icon"></span>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="modal-material__item">
+                            <label for="clothing-size-9" class="size-checkbox">
+                                <input type="checkbox" class="size-checkbox__input" id="clothing-size-9">
+                                <div class="size-checkbox__group">
+                                    <span class="size-checkbox__label">40</span>
+                                    <span class="size-checkbox__icon"></span>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="modal-material__item">
+                            <label for="clothing-size-10" class="size-checkbox">
+                                <input type="checkbox" class="size-checkbox__input" id="clothing-size-10">
+                                <div class="size-checkbox__group">
+                                    <span class="size-checkbox__label">41</span>
+                                    <span class="size-checkbox__icon"></span>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="modal-material__item">
+                            <label for="clothing-size-11" class="size-checkbox">
+                                <input type="checkbox" class="size-checkbox__input" id="clothing-size-11">
+                                <div class="size-checkbox__group">
+                                    <span class="size-checkbox__label">42</span>
+                                    <span class="size-checkbox__icon"></span>
+                                </div>
+                            </label>
+                        </li>
+                    </ul>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of modal material -->
+    <div class="modal-overlay"></div>
+    <!-- Scripts -->
+    <script src="js/vendor.min.js"></script>
+    <script src="js/app.min.js"></script>
 </body>
 </html>
